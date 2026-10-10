@@ -3,7 +3,7 @@
 REST API sederhana untuk mencatat peminjaman buku perpustakaan oleh anggota.
 Dibangun dengan Node.js, Express.js, dan Supabase (PostgreSQL), lalu di-deploy ke Vercel.
 
-**Link deployment:** GANTI_DENGAN_BASE_URL_VERCEL
+**Link deployment:** https://responsi-mod1-ifada.vercel.app
 
 ## Deskripsi & Tujuan Proyek
 
@@ -121,7 +121,7 @@ Pencarian `name`, `title`, dan `author` tidak peka huruf besar-kecil dan cocok s
 
 ## Contoh Request & Response
 
-Semua contoh memakai `BASE_URL` (lokal: `http://localhost:3000`, atau Base URL Vercel).
+Semua contoh memakai `BASE_URL` (lokal: `http://localhost:3001`, atau Base URL Vercel).
 
 ### GET /members
 Response `200 OK`:
@@ -338,7 +338,7 @@ src/
 
 API di-deploy di Vercel dan dapat diakses publik pada:
 
-**Base URL:** GANTI_DENGAN_BASE_URL_VERCEL
+**Base URL:** https://responsi-mod1-ifada.vercel.app
 
 
 Environment variable `SUPABASE_URL` dan `SUPABASE_KEY` diatur lewat pengaturan project di Vercel.
